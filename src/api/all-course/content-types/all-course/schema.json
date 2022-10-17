@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "all_courses",
+  "info": {
+    "singularName": "all-course",
+    "pluralName": "all-courses",
+    "displayName": "AllCourse",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "AllCourses": {
+      "type": "dynamiczone",
+      "components": [
+        "page.button",
+        "page.formlabel",
+        "page.header",
+        "page.media-comp"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

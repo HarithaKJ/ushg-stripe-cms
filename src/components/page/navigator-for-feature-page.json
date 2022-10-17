@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_page_navigator_for_feature_pages",
+  "info": {
+    "displayName": "NavigatorForFeaturePage"
+  },
+  "options": {},
+  "attributes": {
+    "Button1": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.button"
+    }
+  }
+}

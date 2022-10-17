@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_checkboxes",
+  "info": {
+    "displayName": "Checkbox"
+  },
+  "options": {},
+  "attributes": {
+    "CheckField": {
+      "type": "boolean"
+    },
+    "RememberMeField": {
+      "type": "string"
+    }
+  }
+}

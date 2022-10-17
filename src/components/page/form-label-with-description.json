@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_form_label_with_descriptions",
+  "info": {
+    "displayName": "FormLabelWithDescription"
+  },
+  "options": {},
+  "attributes": {
+    "FormLabel": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

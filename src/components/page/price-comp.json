@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_price_comps",
+  "info": {
+    "displayName": "PriceComp"
+  },
+  "options": {},
+  "attributes": {
+    "Price": {
+      "type": "string"
+    },
+    "Monthlyoryearly": {
+      "type": "string"
+    }
+  }
+}

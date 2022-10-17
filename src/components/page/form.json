@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_page_forms",
+  "info": {
+    "displayName": "Form",
+    "icon": "remove-format",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    }
+  }
+}

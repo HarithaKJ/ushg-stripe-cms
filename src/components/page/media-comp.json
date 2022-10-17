@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_media_comps",
+  "info": {
+    "displayName": "MediaComp"
+  },
+  "options": {},
+  "attributes": {
+    "Media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "Description": {
+      "type": "string"
+    }
+  }
+}
