@@ -23,7 +23,8 @@
         "page.feature-list",
         "page.button",
         "page.header",
-        "page.formlabel"
+        "page.formlabel",
+        "page.list"
       ],
       "pluginOptions": {
         "i18n": {
