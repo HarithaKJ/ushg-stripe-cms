@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_page_form_input_boxes",
+  "info": {
+    "displayName": "FormInputBox",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Label": {
+      "type": "string"
+    }
+  }
+}

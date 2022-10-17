@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_form_drop_downs",
+  "info": {
+    "displayName": "FormDropDown",
+    "icon": "angle-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Job": {
+      "type": "enumeration",
+      "enum": [
+        "_blank"
+      ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_page_pricing_pages",
+  "info": {
+    "displayName": "PricingPage",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "HeadingForPricing": {
+      "type": "string"
+    },
+    "AvatarForpricing": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "TypeofPlan": {
+      "type": "string"
+    },
+    "ShortDescription": {
+      "type": "text"
+    },
+    "Button1": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.button"
+    },
+    "Price": {
+      "displayName": "PriceComp",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.price-comp"
+    },
+    "listheading": {
+      "type": "string"
+    },
+    "ListItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.list-group"
+    }
+  }
+}

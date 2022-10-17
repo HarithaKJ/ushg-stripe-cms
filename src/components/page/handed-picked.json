@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_page_handed_pickeds",
+  "info": {
+    "displayName": "HandedPicked",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "HandPickedImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "TitleofHandPicked": {
+      "type": "string"
+    },
+    "RatingForHandPicked": {
+      "type": "string"
+    },
+    "InfoForHandPicked": {
+      "type": "string"
+    },
+    "premiumOrnew": {
+      "type": "string"
+    }
+  }
+}

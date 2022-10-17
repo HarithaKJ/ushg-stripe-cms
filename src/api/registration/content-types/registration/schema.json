@@ -1,0 +1,77 @@
+{
+  "kind": "singleType",
+  "collectionName": "registrations",
+  "info": {
+    "singularName": "registration",
+    "pluralName": "registrations",
+    "displayName": "Registration ",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "SubscriptionInfoPage": {
+      "type": "dynamiczone",
+      "components": [
+        "page.header",
+        "page.pricing-page",
+        "page.checkbox",
+        "page.button"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "TeamRegistrationStep1": {
+      "type": "dynamiczone",
+      "components": [
+        "page.header",
+        "page.formlabel",
+        "page.button",
+        "page.form-header"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "TeamRegistrationStep2": {
+      "type": "dynamiczone",
+      "components": [
+        "page.button",
+        "page.form-header",
+        "page.formlabel",
+        "page.header"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "TeamRegistrationStep3": {
+      "type": "dynamiczone",
+      "components": [
+        "page.button",
+        "page.form-header",
+        "page.formlabel",
+        "page.header",
+        "page.list-group"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

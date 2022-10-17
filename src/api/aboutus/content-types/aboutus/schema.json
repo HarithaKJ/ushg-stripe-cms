@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "aboutuses",
+  "info": {
+    "singularName": "aboutus",
+    "pluralName": "aboutuses",
+    "displayName": "AboutUs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "AboutUs": {
+      "type": "dynamiczone",
+      "components": [
+        "page.image-with-desc",
+        "page.feature-list",
+        "page.button",
+        "page.header",
+        "page.formlabel"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

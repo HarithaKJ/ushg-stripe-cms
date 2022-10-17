@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_feature_lists",
+  "info": {
+    "displayName": "FeatureList"
+  },
+  "options": {},
+  "attributes": {
+    "Featureheading": {
+      "type": "string"
+    },
+    "Featurelist": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.list-group"
+    }
+  }
+}

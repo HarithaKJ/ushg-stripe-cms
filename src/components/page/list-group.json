@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_page_list_groups",
+  "info": {
+    "displayName": "ListGroup",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Listitem": {
+      "type": "string"
+    }
+  }
+}

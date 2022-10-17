@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_publicpages",
+  "info": {
+    "singularName": "landing-publicpage",
+    "pluralName": "landing-publicpages",
+    "displayName": "Landing/publicpage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "LandingPage": {
+      "type": "dynamiczone",
+      "components": [
+        "page.navigator-for-feature-page",
+        "page.button",
+        "page.feature-list",
+        "page.form-header",
+        "page.formlabel",
+        "page.form-label-with-description",
+        "page.header",
+        "page.handed-picked",
+        "page.price-comp",
+        "page.pricing-page"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}
