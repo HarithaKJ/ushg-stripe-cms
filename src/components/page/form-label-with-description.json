@@ -1,14 +1,15 @@
 {
   "collectionName": "components_page_form_label_with_descriptions",
   "info": {
-    "displayName": "FormLabelWithDescription"
+    "displayName": "ThisOrThat",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "FormLabel": {
+    "This": {
       "type": "string"
     },
-    "Description": {
+    "That": {
       "type": "text"
     }
   }

@@ -16,7 +16,40 @@
     }
   },
   "attributes": {
-    "FooterSection": {
+    "Courses": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "page.list"
+      ]
+    },
+    "Explore": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "page.list"
+      ]
+    },
+    "Community": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "page.list"
+      ]
+    },
+    "Company": {
       "pluginOptions": {
         "i18n": {
           "localized": true

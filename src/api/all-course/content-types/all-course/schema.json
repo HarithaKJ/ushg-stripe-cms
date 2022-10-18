@@ -19,7 +19,6 @@
     "AllCourses": {
       "type": "dynamiczone",
       "components": [
-        "page.button",
         "page.formlabel",
         "page.header",
         "page.media-comp"
@@ -29,6 +28,31 @@
           "localized": true
         }
       }
+    },
+    "HandPickedpage": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "page.button"
+      ]
+    },
+    "CTA": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "page.button",
+        "page.header",
+        "page.formlabel",
+        "page.media-comp"
+      ]
     }
   }
 }

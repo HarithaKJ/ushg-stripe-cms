@@ -19,22 +19,92 @@
     "LandingPage": {
       "type": "dynamiczone",
       "components": [
-        "page.navigator-for-feature-page",
         "page.button",
-        "page.feature-list",
-        "page.form-header",
         "page.formlabel",
-        "page.form-label-with-description",
         "page.header",
-        "page.handed-picked",
-        "page.price-comp",
-        "page.pricing-page"
+        "page.image-with-desc"
       ],
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       }
+    },
+    "HandPickedFavorites": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "page.header",
+        "page.button"
+      ]
+    },
+    "Why": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "page.header",
+        "page.handed-picked",
+        "page.form-label-with-description"
+      ]
+    },
+    "SpeakerSpotlight": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "page.header"
+      ]
+    },
+    "TESTIMONIALS": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "page.header"
+      ]
+    },
+    "pricing": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "page.button",
+        "page.formlabel",
+        "page.header",
+        "page.pricing-page",
+        "page.form-label-with-description"
+      ]
+    },
+    "CTA": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "page.button",
+        "page.formlabel",
+        "page.header",
+        "page.media-comp"
+      ]
     }
   }
 }

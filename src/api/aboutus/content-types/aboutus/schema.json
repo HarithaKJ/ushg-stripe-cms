@@ -16,20 +16,54 @@
     }
   },
   "attributes": {
-    "AboutUs": {
+    "AboutUsPage1": {
       "type": "dynamiczone",
       "components": [
         "page.image-with-desc",
-        "page.feature-list",
-        "page.button",
-        "page.header",
-        "page.formlabel"
+        "page.header"
       ],
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       }
+    },
+    "AboutUsPage2": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "page.button",
+        "page.formlabel",
+        "page.feature-list",
+        "page.header"
+      ]
+    },
+    "AboutUsImagePage": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "page.media-comp"
+      ]
+    },
+    "AboutUsVideoPage": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "page.media-comp",
+        "page.formlabel"
+      ]
     }
   }
 }
