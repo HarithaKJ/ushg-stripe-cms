@@ -4,6 +4,6 @@
  * landing-publicpage controller
  */
 
-const { createCoreController } = require('@strapi/strapi').factories;
+ const createPopulatedController = require("../../../helpers/populate");
 
-module.exports = createCoreController('api::landing-publicpage.landing-publicpage');
+module.exports = createPopulatedController('api::landing-publicpage.landing-publicpage');
