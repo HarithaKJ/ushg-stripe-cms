@@ -1,12 +1,12 @@
 {
-  "collectionName": "components_page_form_headers",
+  "collectionName": "components_page_form_footers",
   "info": {
-    "displayName": "FormHeader",
+    "displayName": "FormFooter",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "FormHeading": {
+    "FormFooter": {
       "type": "string"
     },
     "Description": {

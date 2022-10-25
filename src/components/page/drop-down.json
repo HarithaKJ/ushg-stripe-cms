@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_drop_downs",
+  "info": {
+    "displayName": "DropDown",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "DropdownOptions": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.drop-down-value"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "requiredError": {
+      "type": "string"
+    }
+  }
+}

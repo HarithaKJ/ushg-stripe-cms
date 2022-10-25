@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_drop_down_values",
+  "info": {
+    "displayName": "DropDownValue"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "value": {
+      "type": "string"
+    }
+  }
+}

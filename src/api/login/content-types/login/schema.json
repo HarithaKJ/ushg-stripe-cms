@@ -27,7 +27,8 @@
         "page.button",
         "page.checkbox",
         "page.formlabel",
-        "page.header"
+        "page.header",
+        "page.static-text"
       ]
     },
     "UshgAdmin": {

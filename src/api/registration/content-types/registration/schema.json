@@ -30,13 +30,14 @@
         }
       }
     },
-    "TeamRegistrationStep1": {
+    "BasicDetails": {
       "type": "dynamiczone",
       "components": [
         "page.header",
         "page.formlabel",
         "page.button",
-        "page.form-header"
+        "page.form-header",
+        "page.drop-down"
       ],
       "pluginOptions": {
         "i18n": {
@@ -44,13 +45,14 @@
         }
       }
     },
-    "TeamRegistrationStep2": {
+    "EnterpriseCompanyDetails": {
       "type": "dynamiczone",
       "components": [
         "page.button",
         "page.form-header",
         "page.formlabel",
-        "page.header"
+        "page.header",
+        "page.static-text"
       ],
       "pluginOptions": {
         "i18n": {
@@ -58,7 +60,7 @@
         }
       }
     },
-    "TeamRegistrationStep3": {
+    "EnterpriseSubscriptionDetails": {
       "type": "dynamiczone",
       "components": [
         "page.button",
@@ -84,6 +86,22 @@
         "page.button",
         "page.header"
       ]
+    },
+    "NextStepButton": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "CompleteSubscription": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }

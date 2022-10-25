@@ -9,7 +9,36 @@
     "FormLabel": {
       "type": "string"
     },
-    "Description": {
+    "primaryInfo": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string",
+      "unique": false,
+      "required": false
+    },
+    "requiredError": {
+      "type": "string"
+    },
+    "mismatchError": {
+      "type": "string"
+    },
+    "maxlengthError": {
+      "type": "string"
+    },
+    "minlengthError": {
+      "type": "string"
+    },
+    "patternError": {
+      "type": "string"
+    },
+    "genericError": {
+      "type": "string"
+    },
+    "genericWarning": {
+      "type": "string"
+    },
+    "secondaryInfo": {
       "type": "string"
     }
   }

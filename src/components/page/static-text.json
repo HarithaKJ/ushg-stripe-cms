@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_page_static_texts",
+  "info": {
+    "displayName": "staticText"
+  },
+  "options": {},
+  "attributes": {
+    "statictext": {
+      "type": "string"
+    }
+  }
+}
