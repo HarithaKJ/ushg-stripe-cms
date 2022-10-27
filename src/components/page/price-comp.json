@@ -5,11 +5,15 @@
   },
   "options": {},
   "attributes": {
-    "Price": {
-      "type": "string"
+    "Monthly": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.tenure"
     },
-    "Monthlyoryearly": {
-      "type": "string"
+    "Annually": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.tenure"
     }
   }
 }

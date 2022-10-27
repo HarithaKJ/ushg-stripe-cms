@@ -22,7 +22,8 @@
         "page.header",
         "page.pricing-page",
         "page.checkbox",
-        "page.button"
+        "page.button",
+        "page.price"
       ],
       "pluginOptions": {
         "i18n": {

@@ -6,7 +6,7 @@
   },
   "options": {},
   "attributes": {
-    "HeadingForPricing": {
+    "label": {
       "type": "string"
     },
     "AvatarForpricing": {
@@ -20,27 +20,47 @@
         "audios"
       ]
     },
-    "TypeofPlan": {
+    "name": {
       "type": "string"
     },
-    "ShortDescription": {
+    "description": {
       "type": "text"
     },
-    "Button1": {
+    "role": {
+      "type": "string"
+    },
+    "buttons": {
       "type": "component",
       "repeatable": true,
       "component": "page.button"
     },
-    "Price": {
-      "displayName": "PriceComp",
+    "pricing": {
+      "displayName": "pricing",
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "page.price-comp"
     },
-    "listheading": {
+    "pricingAltText": {
       "type": "string"
     },
-    "ListItems": {
+    "className": {
+      "type": "string"
+    },
+    "badgelabel": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "text"
+    },
+    "badge": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "features": {
       "type": "component",
       "repeatable": true,
       "component": "page.list-group"

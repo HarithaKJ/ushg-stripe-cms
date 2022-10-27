@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_max_length_errors",
+  "info": {
+    "displayName": "maxLengthError"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "integer"
+    },
+    "message": {
+      "type": "string"
+    }
+  }
+}

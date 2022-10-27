@@ -11,15 +11,8 @@
       "repeatable": true,
       "component": "page.formlabel"
     },
-    "DropDown":{
-      "type":"component",
-      "repeatable":true,
-      "component": "page.drop-down"
-    },
     "FormHeading": {
-      "type": "component",
-      "repeatable": true,
-      "component": "page.form-header"
+      "type":"string"
     },
     "FormFooter": {
       "displayName": "FormFooter",

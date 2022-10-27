@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_page_prices",
+  "info": {
+    "displayName": "Price"
+  },
+  "options": {},
+  "attributes": {
+    "Pricecard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.pricing-page"
+    }
+  }
+}

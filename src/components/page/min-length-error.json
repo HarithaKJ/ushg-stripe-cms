@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_min_length_errors",
+  "info": {
+    "displayName": "minLengthError"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "integer"
+    },
+    "message": {
+      "type": "string"
+    }
+  }
+}

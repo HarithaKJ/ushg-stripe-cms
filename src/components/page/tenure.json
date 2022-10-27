@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_tenures",
+  "info": {
+    "displayName": "Tenure"
+  },
+  "options": {},
+  "attributes": {
+    "price": {
+      "type": "string"
+    },
+    "tenure": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_patterns",
+  "info": {
+    "displayName": "pattern"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    }
+  }
+}

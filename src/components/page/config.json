@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_page_configs",
+  "info": {
+    "displayName": "config"
+  },
+  "options": {},
+  "attributes": {
+    "required": {
+      "displayName": "RequiredError",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.required-error"
+    },
+    "minLength": {
+      "displayName": "minLengthError",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.min-length-error"
+    },
+    "maxLength": {
+      "displayName": "maxLengthError",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.max-length-error"
+    },
+    "pattern": {
+      "displayName": "pattern",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.pattern"
+    }
+  }
+}

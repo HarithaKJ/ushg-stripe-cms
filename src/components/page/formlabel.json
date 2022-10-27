@@ -6,40 +6,50 @@
   },
   "options": {},
   "attributes": {
-    "FormLabel": {
+    "label": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "defaultValue": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "min": {
+      "type": "string"
+    },
+    "max": {
+      "type": "string"
+    },
+    "enableFor": {
       "type": "string"
     },
     "primaryInfo": {
       "type": "string"
     },
-    "slug": {
-      "type": "string",
-      "unique": false,
-      "required": false
-    },
-    "requiredError": {
-      "type": "string"
-    },
-    "mismatchError": {
-      "type": "string"
-    },
-    "maxlengthError": {
-      "type": "string"
-    },
-    "minlengthError": {
-      "type": "string"
-    },
-    "patternError": {
-      "type": "string"
-    },
-    "genericError": {
-      "type": "string"
-    },
-    "genericWarning": {
-      "type": "string"
-    },
     "secondaryInfo": {
       "type": "string"
+    },
+    "config": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.config"
+    },
+    "info": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.info"
+    },
+    "options": {
+      "type":"component",
+      "repeatable":true,
+      "component":"page.drop-down-value"
     }
   }
 }

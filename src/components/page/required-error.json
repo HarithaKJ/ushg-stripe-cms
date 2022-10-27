@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_required_errors",
+  "info": {
+    "displayName": "RequiredError"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "boolean"
+    },
+    "message": {
+      "type": "string"
+    }
+  }
+}
