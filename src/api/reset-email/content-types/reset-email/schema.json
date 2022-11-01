@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "reset_emails",
+  "info": {
+    "singularName": "reset-email",
+    "pluralName": "reset-emails",
+    "displayName": "ResetEmail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "EmailHeading": {
+      "type": "string"
+    },
+    "EmailBody1": {
+      "type": "string"
+    },
+    "EmailBody2": {
+      "type": "string"
+    },
+    "EmailFooter": {
+      "type": "string"
+    }
+  }
+}

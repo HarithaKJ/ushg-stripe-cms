@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "email_confirmations",
+  "info": {
+    "singularName": "email-confirmation",
+    "pluralName": "email-confirmations",
+    "displayName": "EmailConfirmation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "EmailHeading": {
+      "type": "string"
+    },
+    "EmailBody1": {
+      "type": "text"
+    },
+    "EmailFooter": {
+      "type": "string"
+    },
+    "Button": {
+      "type": "string"
+    },
+    "EmailBody2": {
+      "type": "string"
+    }
+  }
+}
